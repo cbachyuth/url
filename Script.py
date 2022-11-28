@@ -105,7 +105,6 @@ This module only works for my admins
 <b>👤 ᴜsᴇʀs:</b> <code>{}</code>
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
-
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
