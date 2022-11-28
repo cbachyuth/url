@@ -115,5 +115,4 @@ Aᴅᴅᴇᴅ Bʏ - {}</b>
     LOG_TEXT_P = """<b>#NewUser
     
 ID - <code>{}</code>
-Nᴀᴍᴇ - {}</b>
-"""
+Nᴀᴍᴇ - {}</b>"""
