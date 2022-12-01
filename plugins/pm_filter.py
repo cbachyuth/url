@@ -657,7 +657,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.KD_CNL),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-            
+            )
+    elif query.data == "closedata":
+        if query.from_user.id not in ADMINS:
+            await query.answer("ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ʀɪɢʜᴛs ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs.", show_alert = True)
+            return
+        await query.message.delete()
+            )            
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
