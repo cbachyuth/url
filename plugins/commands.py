@@ -561,4 +561,4 @@ async def send_msg(bot, message):
         except Exception as e:
             await message.reply_text(f"<b>Error: {e}</b>")
     else:
-        await message.reply_text("<b>Use this command as a reply to any message using the target chat id. For eg: /send userid</b>")
+        await message.reply_text("<b>Use this command as a reply to any message using the target chat id. For eg: /Reply userid</b>")
