@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍁 Oᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('😎 Oᴡɴᴇʀ', callback_data="owner_info"),
                     InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
                 ],[
                     InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
@@ -475,11 +475,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/Aks_support01_bot')
         ],[
-            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
+            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url='https://t.me/Imdb_updates')
         ],[
-            InlineKeyboardButton('Lᴜᴄɪғᴇʀ Fɪʟᴇs Cʜᴀɴɴᴇʟ', url=FILE_CHANNEL_LINK)
+            InlineKeyboardButton('Lᴜᴄɪғᴇʀ Fɪʟᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/technicalaks0111')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -642,13 +642,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Lᴜᴄɪғᴇʀ Bᴏᴛ Lᴏɢs', url="https://t.me/LuciferBot_logs")
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/Imdb_updates'),
+                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/technicalaks0111')
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/mh_request'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/movieshouse8')
-                     ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/kdbotz_support'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/kd_botz')
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/Aks_support01_bot'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Imdb_updates')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
