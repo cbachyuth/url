@@ -487,7 +487,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.B_LINK),
+            text=script.ABOUT_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -643,7 +643,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "kd_cnl":
             cnlbtn = [[
                       InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/Imdb_updates'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/technicalaks0111')
+                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://telegram.me/Aksbackup')
                      ], [
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/Aks_support01_bot'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Imdb_updates')
