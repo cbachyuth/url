@@ -135,7 +135,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @Imdb_updates ]─────⍟</b>"""
+<b>⍟────[ @ph_files ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -194,7 +194,7 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : ☠ pspk ☠『🇮🇳』
 • ᴜꜱᴇʀɴᴀᴍᴇ : @ph_files_adminbot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/technicalaks123'>Ayush ࿐</a></b>
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/ph_files'>PSPK ࿐</a></b>
 """
 
     KD_IMDB = """
