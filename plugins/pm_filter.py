@@ -111,7 +111,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="👇 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs 👇", url='https://t.me/htdpspkfiles')
+            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD  ♨♨ 👇", url='https://t.me/htdpspkfiles')
         ]
     )
 
