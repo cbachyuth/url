@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('☠ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/ph_files'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/ph_files')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://telegram.me/movies_seriesupdates'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/helpline_4u')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
