@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/9a47c36c890538d2aa9e0.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/b27df166d116499e3cbcf.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2001653136').split()]
@@ -82,10 +82,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "👇 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs 👇"
-DOWNLOAD_TEXT_URL = "https://t.me/htdpspkfiles"
+DOWNLOAD_TEXT_URL = "https://telegram.me/movies_seriesupdates"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "🤗 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐩𝐥𝐞𝐚𝐬𝐞 🤗"
-CAPTION_BUTTON_URL = "https://t.me/ph_files"
+CAPTION_BUTTON_URL = "https://telegram.me/movies_seriesupdates"
 
    # Auto Delete For Bot Sending Files #
