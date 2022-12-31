@@ -111,7 +111,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD  ♨♨ 👇", url='https://t.me/htdpspkfiles')
+            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD  ♨♨ 👇", url='https://telegram.me/movies_seriesupdates')
         ]
     )
 
@@ -478,11 +478,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/ph_files_adminbot')
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/kumbipaakamadmin_bot')
         ],[
-            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url='https://t.me/ph_files_adminbot')
+            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url='https://t.me/kumbipaakamadmin_bot')
         ],[
-            InlineKeyboardButton('Aks Fɪʟᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/ph_files')
+            InlineKeyboardButton('Aks Fɪʟᴇs Cʜᴀɴɴᴇʟ', url='https://telegram.me/movies_seriesupdates')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -645,11 +645,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/ph_files'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://telegram.me/ph_files')
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/helpline_4u'),
+                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://telegram.me/movies_seriesupdates')
                      ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/ph_files_adminbot'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/ph_files')
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/helpline_4u'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://telegram.me/movies_seriesupdates')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -771,7 +771,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD ♨♨ 👇", url='https://t.me/htdpspkfiles')
+            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD ♨♨ 👇", url='https://telegram.me/movies_seriesupdates')
         ]
     )
 
