@@ -47,6 +47,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('☠ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
+                    InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
+                  ],[
                     InlineKeyboardButton('😎 Oᴡɴᴇʀ', callback_data="owner_info"),
                     InlineKeyboardButton('👥️️ Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
                   ],[
@@ -96,6 +98,8 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
                     InlineKeyboardButton('☠ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                  ],[
+                    InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
                   ],[
                     InlineKeyboardButton('😎 Oᴡɴᴇʀ', callback_data="owner_info"),
                     InlineKeyboardButton('👥️️ Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
