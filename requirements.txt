@@ -12,5 +12,5 @@ heroku3
 pynewtonmath
 pytz
 aiohttp
-Cinemagoer
-googletrans
+cinemagoer
+
