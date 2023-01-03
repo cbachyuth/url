@@ -111,7 +111,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD  ♨♨ 👇", url='https://telegram.me/movies_seriesupdates')
+            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD  ♨♨ 👇", url='https://t.me/movies_seriesupdates/585')
         ]
     )
 
@@ -771,7 +771,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD ♨♨ 👇", url='https://telegram.me/movies_seriesupdates')
+            InlineKeyboardButton(text="👇 ♨♨ HOW TO DOWNLOAD ♨♨ 👇", url='https://t.me/movies_seriesupdates/585')
         ]
     )
 
