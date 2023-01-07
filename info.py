@@ -30,7 +30,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2001653136').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001505294843')
-auth_grp = environ.get('AUTH_GROUP')
+auth_grp = environ.get('AUTH_GROUP', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -76,9 +76,9 @@ URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
-SELF_DELETE = environ.get('SELF_DELETE', True)
-if SELF_DELETE == "True":
-    SELF_DELETE = True
+SELF_DELETE = environ.get('SELF_DELETE', False)
+if SELF_DELETE == "False":
+    SELF_DELETE = False
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "👇 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs 👇"
